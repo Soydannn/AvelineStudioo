@@ -1,7 +1,7 @@
 export default function Header() {
     return (
-      <header>
-        <div className="bg-gray-100 flex items-center justify-between py-7 px-20">
+      <header className="sticky top-0 z-50 bg-white">
+        <div className="flex items-center justify-between py-7 px-20">
           <a href="">Logo</a>
   
           <nav>
